@@ -28,7 +28,7 @@ const ViewerWebs: FunctionComponent<ViewerWebsProps> = ({ webs }) => {
           <View style={theme.marginBottom} key={web.id}>
             <Text style={theme.text}>
               <Link href={{ pathname: '/web', query: { id: web.id } }}>
-                {web.name}
+                {web.name}-demo-demo-demo
               </Link>
             </Text>
             <Text style={theme.textSmallGray}>
